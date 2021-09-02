@@ -76,10 +76,9 @@ height: 32px;
 }
 
 .header__title_position {
-  position: absolute;
   z-index: 4;
   align-self: center;
-  left: 64px;
+  margin-left: 64px;
 }
   
 .header__subtitle {
