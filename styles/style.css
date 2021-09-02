@@ -302,12 +302,7 @@ height: 32px;
   z-index: 1;
 }
 
-
-
-
 .table__cell_theme_dark {
-  display: inline-block;
-  flex-direction: row;
   width: 200px;
   margin-top: 80px;
   z-index: 1;
