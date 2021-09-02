@@ -38,10 +38,12 @@
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
-  width: 200px;
   color: white;
-  margin-right: 0;
+  display: inline-block;
+  flex-direction: row;
+  width: 200px;
   margin-top: 80px;
+  z-index: 1;
 }
 
 .header__logo {
@@ -299,12 +301,6 @@ height: 32px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  z-index: 1;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-  margin-top: 80px;
   z-index: 1;
 }
 
