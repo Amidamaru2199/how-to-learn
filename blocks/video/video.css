@@ -1,0 +1,6 @@
+.video {
+    outline: 1px solid slategray;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
