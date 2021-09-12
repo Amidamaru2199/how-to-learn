@@ -5,4 +5,16 @@
     font-size: 18px;
     font-weight: normal;
     margin: 0px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    opacity: 1;
+}
+
+.footer__column-link:hover {
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    opacity: 0.5;
+ 
   }

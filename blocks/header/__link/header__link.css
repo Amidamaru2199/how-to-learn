@@ -1,8 +1,16 @@
 .header__link {
     text-decoration: none;
     color: #2f80ed;
+    position: relative;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    opacity: 1;
   }
 
   .header__link:hover {
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
     opacity: 0.5;
   }
